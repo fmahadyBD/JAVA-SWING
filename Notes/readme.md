@@ -27,4 +27,33 @@ getSelectedItem()
 .JOption.showMessageDialog(classname.this,"some text"+label_variable_or_object.getText())
 
 ```
+   ### Add data in Table ` Defulat object need to crate`
    
+ ```powershell
+DefaultTableModel objName;
+
+```
+then need to initialize into class's constroctor
+```powershell
+objName= (DefaultTableModel) tableObjeName.getModel();
+```
+After that in the add even batton method: `DefaultTableModel object name`
+```poweshell
+objName.insertRow(tableObjeName.getRowCont(),new object[]{
+     
+     colum1.getText();
+     colum2.getText();
+     
+     });
+```
+After to onselected:
+```poweshell
+
+
+
+
+
+
+
+
+
