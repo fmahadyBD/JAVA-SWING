@@ -8,4 +8,9 @@
 .grabFocus()
 
 ```
+### Show popup
+ ```powershell
+.JOption.showMessageDialog(classname.this,"some text"+label_variable_or_object.getText())
+
+```
    
