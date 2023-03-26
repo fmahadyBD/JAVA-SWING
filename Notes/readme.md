@@ -47,7 +47,10 @@ objName.insertRow(tableObjeName.getRowCont(),new object[]{
      });
 ```
 After to onselected:
+` select mouse event and double click it for creating method of button event`
 ```poweshell
+  tableObjeName.clearSelection();
+  ```
 
 
 
