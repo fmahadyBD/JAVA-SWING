@@ -61,7 +61,8 @@ After to onselected:
     }else{
     objName.removeRow( tableObjeName.getSelectedRow());
     }
-    ```
+    
+```
     
     
 
