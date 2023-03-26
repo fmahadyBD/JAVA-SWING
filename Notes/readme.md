@@ -27,7 +27,8 @@ getSelectedItem()
 .JOption.showMessageDialog(classname.this,"some text"+label_variable_or_object.getText())
 
 ```
-   ### Add data in Table ` Defulat object need to crate`
+## TABLE
+### Add data in Table ` Defulat object need to crate`
    
  ```powershell
 DefaultTableModel objName;
@@ -51,6 +52,18 @@ After to onselected:
 ```poweshell
   tableObjeName.clearSelection();
   ```
+ ### Delete Data From table:
+  `objName is the model object name `
+  ```powershell
+    if( tableObjeName.getSelectionRow()==-1){
+         //getSelectionRow gives -1 when there no row  selected
+        return;
+    }else{
+    objName.removeRow( tableObjeName.getSelectedRow());
+    }
+    ```
+    
+    
 
 
 
