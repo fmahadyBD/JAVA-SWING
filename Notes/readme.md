@@ -63,7 +63,13 @@ After to onselected:
     }
     
 ```
-    
+ Clear all data in one click:
+ ` in the button event ,,,objName is the model object name`
+ ```powershell
+ 
+  objName.setRowCount(0);
+  
+```
     
 
 
